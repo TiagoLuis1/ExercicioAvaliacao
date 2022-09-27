@@ -77,6 +77,7 @@
             this.dgwTelefones.Name = "dgwTelefones";
             this.dgwTelefones.Size = new System.Drawing.Size(373, 145);
             this.dgwTelefones.TabIndex = 4;
+            this.dgwTelefones.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgwTelefones_CellContentClick);
             // 
             // PesquisaTelefones
             // 

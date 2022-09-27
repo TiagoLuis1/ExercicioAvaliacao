@@ -229,5 +229,10 @@ namespace ExercicioAvaliacao
             }
             mostrar();
         }
+
+        private void dgwContasPagar_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace ExercicioAvaliacao
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            if (txtLogin.Text == "Admin" && txtSenha.Text == "admin")
+            if (txtLogin.Text == "Tiago" && txtSenha.Text == "123456")
             {
                 Principal abrir = new Principal();
                 abrir.Show();

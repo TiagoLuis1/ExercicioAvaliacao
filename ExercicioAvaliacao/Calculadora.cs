@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ExercicioAvaliacao
 {
-    public partial class PesquisaTelefones : Form
+    public partial class Calculadora : Form
     {
-        public PesquisaTelefones()
+        public Calculadora()
         {
             InitializeComponent();
-        }
-
-        private void dgwTelefones_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
     }
 }
